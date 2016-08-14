@@ -1,7 +1,7 @@
 # deadtree
 A dead simple randomly generated tree for Three.js.
 
-![Tree](lmparppei.github.com/deadtree/sample.jpg)
+![Tree](http://lmparppei.github.com/deadtree/sample.jpg)
 
 Note that the first object in hierarchy is an Object3D. All branches are children to it in tree-like recursive manner, all with their own Object3D pivot so you can control the rotation of individual branches easily.
 
