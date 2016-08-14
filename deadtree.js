@@ -28,7 +28,7 @@ function deadTree (size, material, children) {
         branch.add(branchEnd);
 
         branch.position.y = length / 2;
-        branchEnd.position.y = length / 2;
+        branchEnd.position.y = length / 2 - size * .4;
         
         if (isChild) {
             branchPivot.rotation.z += Math.random() * 1.5 - .75;
