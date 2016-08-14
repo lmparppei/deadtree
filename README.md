@@ -3,7 +3,10 @@ A dead simple randomly generated tree for Three.js. Nothing fancy but (usually) 
 
 Example:
 ```
-var material = new THREE.MeshPhongMaterial({ color: 0x555555 });
-var tree = deadTree(5, material, 5);
+var size = 5; // thickness
+var material = new THREE.MeshPhongMaterial({ color: 0x555555 }); // material
+var children = 5;  // branches
+
+var tree = deadTree(size, material, children);
 scene.add(tree);
 ```
