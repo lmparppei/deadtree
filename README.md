@@ -1,5 +1,7 @@
 # deadtree
-A dead simple randomly generated tree for Three.js.
+A dead simple randomly generated tree for Three.js. There are plenty of other tree generators around but I needed one that required less tweaking to work. 
+
+**Note** that this is not very efficient with very large-scale applications as every tree part is a mesh of its own.
 
 ![Tree](https://dl.dropboxusercontent.com/u/21942940/git/deadtree/sample.jpg)
 
@@ -25,3 +27,5 @@ function animate() {
   }
 }
 ```
+
+Certain things like shrinkage modifier etc. are hard-coded but you can tweak and mess around with the code. If you come up with a great way to improve this, feel free to contribute!
