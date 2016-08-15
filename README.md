@@ -26,4 +26,4 @@ function animate() {
 }
 ```
 
-Certain things like shrinkage modifier etc. are hard-coded but you can tweak and mess around with the code. If you come up with a great way to improve this, feel free to contribute!
+Certain things like shrink modifier etc. are hard-coded but you can tweak the values easily. If you come up with a great way to improve this, feel free to contribute!
