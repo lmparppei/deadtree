@@ -15,7 +15,13 @@ scene.add(tree);
 
 Every branch pivot point can be found under resulting objects .branchPivots property. You can use it to create something like a wind effect:
 ```
-var tree = deadTree(size, material, children);
-scene.add(tree)
-function animate() 
+var wind = 0;
+var clock = new THREE.Clock();
+
+function animate() {
+  wind += clock.getDelta() + Math.random();
+  for (b in tree.branchPivots) {
+    tree.branchPivots[b].rotation.z += Math.cos(wind * Math.random()) * 0.0005;
+  }
+}
 ```
