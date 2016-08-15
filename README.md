@@ -15,7 +15,7 @@ var tree = deadTree(size, material, children);
 scene.add(tree);
 ```
 
-Every branch pivot point can be found under resulting objects .branchPivots property. You can use it to create something like a wind effect:
+Every branch pivot point can be found under resulting object's ```.branchPivots``` property. It can be used to create a wind effect, for example:
 ```
 var wind = 0;
 var clock = new THREE.Clock();
