@@ -1,6 +1,8 @@
 # deadtree
 A dead simple randomly generated tree for Three.js. There are plenty of other tree generators around but I needed one that required less tweaking to work. 
 
+See it in use: http://kapitan.fi/takemehome/
+
 ![Tree](https://dl.dropboxusercontent.com/u/21942940/git/deadtree/sample.jpg)
 
 ### Example:
